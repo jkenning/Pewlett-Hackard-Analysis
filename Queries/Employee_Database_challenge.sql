@@ -29,6 +29,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT (title) DESC; 
 
+-- Deliverable 2: The Employees Eligible for the Mentorship Program
 --Create a mentorship eligibility table for retiring employees who can participate
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	e.first_name,

@@ -17,7 +17,7 @@ Software used: PostgreSQL 11.10.2, pgAdmin 4.29, QuickDBD, Visual Studio Code
 
 ### Data Preparation and Wrangling
 
-The first stage of the analysis was to create an entitiy relationship diagram (ERD) between the six .csv data files and identify the primary and foreign keys for each data table. With the database schema mapped out, the company employment data from the .csv files was imported into the database and data types were defined. Once in the databse, SQL can be used to retrieve information and help format the data for analysis by filtering, grouping, and joining the tables as necessary.
+The first stage of the analysis was to create an entitiy relationship diagram ([ERD](https://github.com/jkenning/Pewlett-Hackard-Analysis/blob/main/DBD_text.txt)) between the six .csv data files and identify the primary and foreign keys for each data table. With the database schema mapped out, the company employment data from the .csv files was imported into the database and data types were defined. Once in the databse, SQL can be used to retrieve information and help format the data for analysis by filtering, grouping, and joining the tables as necessary.
 
 ![](https://github.com/jkenning/Pewlett-Hackard-Analysis/blob/main/Resources/EmployeeDB.png)
 
